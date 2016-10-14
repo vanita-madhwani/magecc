@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+      <Aks_Pagecounter>
+         <active>true</active>
+         <codePool>local</codePool>
+      </Aks_Pagecounter>
+    </modules>
+</config>

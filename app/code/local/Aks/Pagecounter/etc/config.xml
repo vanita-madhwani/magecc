@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This is the custom module for showing the Page View count 
+ * For the Particular Product on the product detail page
+ *
+ * @category    Aks
+ * @package     Aks_Pagecounter
+ */
+-->
+<config>
+  <modules>
+    <Aks_Pagecounter>
+      <version>0.1.0</version>
+    </Aks_Pagecounter>
+  </modules>
+  <global>
+    <blocks>
+      <pagecounter>
+        <class>Aks_Pagecounter_Block</class>
+      </pagecounter>
+    </blocks>
+  </global>
+  <frontend>
+        <layout>
+            <updates>
+                <pagecounter>
+                    <file>aks/pagecount.xml</file>
+                </pagecounter>
+            </updates>
+        </layout>            
+    </frontend>
+</config>
